@@ -1,0 +1,8 @@
+{
+  "name": "portfolio",
+  "private": true,
+  "scripts": {
+    "build": "npm --prefix services/web run build",
+    "test": "npm --prefix services/web test"
+  }
+}

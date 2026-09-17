@@ -1,0 +1,24 @@
+{
+  "name": "portfolio-web",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@fluentui/react-components": "^9.69.0",
+    "@fluentui/react-icons": "^2.0.312",
+    "@vitejs/plugin-react": "^5.0.4",
+    "framer-motion": "^12.23.12",
+    "portfolio": "file:../..",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "vite": "^7.1.5",
+    "vitest": "^3.2.4"
+  }
+}

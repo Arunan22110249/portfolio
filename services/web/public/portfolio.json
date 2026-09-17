@@ -1,0 +1,122 @@
+{
+  "identity": {
+    "name": "Arunan Jithendra Kumar",
+    "headline": "Building Production-Grade Software & AI Systems.",
+    "introduction": "Computer Science graduate with production software engineering experience at Amazon, building and deploying backend systems, APIs, data pipelines, and ML-powered services in Python. Experienced in production testing, asynchronous workflows, cloud deployment, performance optimization, and end-to-end system development.",
+    "location": "Chennai, India"
+  },
+  "contact": {
+    "email": "arunanj2005@gmail.com",
+    "phone": "+91 7200119246"
+  },
+  "links": [
+    { "label": "GitHub", "url": "https://github.com/Arunan22110249" },
+    { "label": "LinkedIn", "url": "https://www.linkedin.com/in/arunan-jithendra-kumar-067ab4258/" }
+  ],
+  "metrics": [
+    { "value": "+22.2", "unit": "percentage points", "label": "Production accuracy", "context": "Amazon AnnouncementExpert: 74.8% to 97.0%" },
+    { "value": "~50", "unit": "latency reduction", "label": "Median inference latency", "context": "On the same hardware" },
+    { "value": "98.7", "unit": "token reduction", "label": "Per-request consumption", "context": "~4,877 instruction tokens to ~66 input tokens" },
+    { "value": "60", "unit": "manual processing reduction", "label": "Data workflow effort", "context": "NIT Trichy cloud data engineering" },
+    { "value": "91", "unit": "relative improvement", "label": "Lab baseline", "context": "IIT Madras downstream evaluation" }
+  ],
+  "experience": [
+    {
+      "kind": "Production",
+      "organization": "Amazon",
+      "period": "Mar 2026 — Jul 2026",
+      "role": "Applied Scientist Intern",
+      "team": "Devices Org, Alexa Connections",
+      "title": "Production LLM and Small Language Model Systems for Alexa+ AnnouncementExpert"
+    },
+    {
+      "kind": "Research",
+      "organization": "IIT Madras",
+      "period": "May 2025 — Feb 2026",
+      "role": "Project Staff",
+      "team": "Speech and Music Technology Lab, Dept. of CSE",
+      "title": "Self-supervised learning for microtonal acoustic signals and neural networks without backpropagation for ASR"
+    },
+    {
+      "kind": "Cloud / Data",
+      "organization": "NIT Trichy",
+      "period": "Apr 2025 — May 2025",
+      "role": "Applied AI & Cloud Data Engineering Intern",
+      "team": "Cloud and data engineering",
+      "title": "Dockerized Flask forecasting service for automated cloud resource autoscaling"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Dynamic RAG Schema Designer",
+      "description": "Autonomous retrieval optimization system that generates, benchmarks, and selects retrieval configurations across chunking, embeddings, and reranking strategies.",
+      "problem": "Manual RAG configuration requires repeated decisions across retrieval stages and vector backends.",
+      "solution": "A FastAPI and React experimentation platform with real-time analytics and support for multiple vector backends.",
+      "architecture": "Query → Chunking → Embeddings → Vector Backend → Reranking → Evaluation",
+      "stack": ["FastAPI", "React", "RAG", "Embeddings", "Vector backends"],
+      "github": null
+    },
+    {
+      "name": "ADCEA",
+      "description": "Autonomous Data Cleaning & Feature Engineering Agent for end-to-end dataset preparation and baseline AutoML training.",
+      "problem": "Dataset ingestion, profiling, cleaning, and feature engineering often require disconnected manual steps.",
+      "solution": "An end-to-end data processing application with asynchronous training pipelines, Argon2 authentication, and a lightweight SPA for live insights and model management.",
+      "architecture": "Dataset → Profiling → Cleaning → Feature Engineering → AutoML → Insights",
+      "stack": ["Python", "Async pipelines", "Argon2", "AutoML", "SPA"],
+      "github": null
+    }
+  ],
+  "research": [
+    {
+      "number": "01",
+      "visual": "spectral",
+      "title": "Detecting Neural Network Failures through Spectral Analysis of Internal Activations",
+      "author": "A. Jithendra Kumar et al.",
+      "id": "2607.20590",
+      "url": "https://arxiv.org/abs/2607.20590",
+      "venue": "CIFAR-10",
+      "concepts": ["Spectral analysis", "STFT", "Wavelets", "Failure detection"],
+      "result": "79.0 ± 25.3% AUROC"
+    },
+    {
+      "number": "02",
+      "visual": "theory",
+      "title": "Tight Sample Complexity for Low-Rank Adaptation: Matching Bounds and Rank Selection",
+      "author": "A. Jithendra Kumar et al.",
+      "id": "2607.27680",
+      "url": "https://arxiv.org/abs/2607.27680",
+      "venue": "Low-rank adaptation",
+      "concepts": ["LoRA", "Rank r", "Sample complexity", "Generalization"],
+      "result": "Matching bounds and rank selection"
+    },
+    {
+      "number": "03",
+      "visual": "training",
+      "title": "Phase Transition Frequency as a Training Time Predictor of Test Accuracy in ResNets",
+      "author": "A. Jithendra Kumar et al.",
+      "id": "2609.05194",
+      "url": "https://arxiv.org/abs/2609.05194",
+      "venue": "Training dynamics",
+      "concepts": ["75 experiments", "CIFAR-10", "CIFAR-100", "TinyImageNet", "CIFAR-10-C", "ResNet-18", "ResNet-50", "ResNet-101"],
+      "result": "Phase transition frequency as a training-time signal"
+    }
+  ],
+  "skills": {
+    "Languages": ["Python", "Java", "C", "SQL", "Bash", "React", "Next.js"],
+    "Backend": ["Node.js", "FastAPI", "Flask", "REST APIs", "Async programming", "OOP", "Automated testing"],
+    "Cloud": ["AWS Bedrock", "SageMaker", "S3", "Docker", "Linux"],
+    "Data": ["PySpark", "NumPy", "Pandas", "Data processing pipelines"],
+    "AI/ML": ["PyTorch", "TensorFlow", "scikit-learn", "Hugging Face Transformers", "LoRA", "SFT", "RAG", "Model distillation"],
+    "DevOps": ["Git", "CI/CD", "Maven", "Jenkins", "JUnit"],
+    "AI Agents": ["LlamaIndex", "vLLM", "TensorRT", "MLflow"]
+  },
+  "education": {
+    "institution": "Shiv Nadar University, Chennai",
+    "degree": "B.Tech in Computer Science",
+    "specialization": "Specialization in Internet of Things",
+    "period": "Sept 2022 — July 2026",
+    "cgpa": "8.3/10",
+    "coursework": ["Data Structures & Algorithms", "Operating Systems", "Database Management Systems", "Computer Networks"]
+  },
+  "certifications": []
+}
