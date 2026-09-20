@@ -64,6 +64,16 @@
       "architecture": "Dataset → Profiling → Cleaning → Feature Engineering → AutoML → Insights",
       "stack": ["Python", "Async pipelines", "Argon2", "AutoML", "SPA"],
       "github": null
+    },
+    {
+      "name": "OrderFlow",
+      "description": "Event-driven distributed commerce platform designed to keep order processing correct and observable under concurrency, failures, and retries.",
+      "problem": "Distributed order workflows need reliable inventory, payment, and notification coordination without duplicate actions or lost state.",
+      "solution": "A Spring Boot platform with idempotent order APIs, optimistic inventory locking, transactional outbox events, Kafka processing, payment compensation, Redis caching, and an auditable failure lab.",
+      "architecture": "Client → Spring Boot API → Order → Inventory / Payment → Outbox → Kafka → Notifications / Analytics / Audit",
+      "pipeline": ["Order API", "Inventory", "Payment", "Outbox", "Kafka", "Observability"],
+      "stack": ["Java 17", "Spring Boot", "PostgreSQL", "Redis", "Kafka", "React + Vite", "Docker", "Kubernetes", "OpenTelemetry"],
+      "github": "https://github.com/Arunan22110249/OrderFlow"
     }
   ],
   "research": [
