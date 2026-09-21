@@ -48,22 +48,13 @@
   ],
   "projects": [
     {
-      "name": "Dynamic RAG Schema Designer",
-      "description": "Autonomous retrieval optimization system that generates, benchmarks, and selects retrieval configurations across chunking, embeddings, and reranking strategies.",
-      "problem": "Manual RAG configuration requires repeated decisions across retrieval stages and vector backends.",
-      "solution": "A FastAPI and React experimentation platform with real-time analytics and support for multiple vector backends.",
-      "architecture": "Query → Chunking → Embeddings → Vector Backend → Reranking → Evaluation",
-      "stack": ["FastAPI", "React", "RAG", "Embeddings", "Vector backends"],
-      "github": null
-    },
-    {
       "name": "ADCEA",
       "description": "Autonomous Data Cleaning & Feature Engineering Agent for end-to-end dataset preparation and baseline AutoML training.",
       "problem": "Dataset ingestion, profiling, cleaning, and feature engineering often require disconnected manual steps.",
       "solution": "An end-to-end data processing application with asynchronous training pipelines, Argon2 authentication, and a lightweight SPA for live insights and model management.",
       "architecture": "Dataset → Profiling → Cleaning → Feature Engineering → AutoML → Insights",
       "stack": ["Python", "Async pipelines", "Argon2", "AutoML", "SPA"],
-      "github": null
+      "github": "https://github.com/Arunan22110249/ADCEA"
     },
     {
       "name": "OrderFlow",
